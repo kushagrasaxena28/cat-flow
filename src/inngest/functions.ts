@@ -29,7 +29,7 @@ export const execute = inngest.createFunction(
       "openai-generate-text",
       generateText,
       {
-        model: openai("gpt-5"),
+        model: openai("gpt-4"),
         system: "You are a helpful assistant.",
         prompt: "What is 2 + 2?",
       }
